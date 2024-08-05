@@ -1,19 +1,132 @@
-*
-{
+* {
     box-sizing: border-box;
 }
 
-body 
-{
+body {
+    background-color: #FFF2F2;
     margin: 0;
-    font-family: 'lato', sans-serif;
-    overflow-x: hidden;
     min-height: 100vh;
 }
 
-.footer-text
-{
-    padding-top: 1rem;
-    padding-bottom: 0.4rem;
-    font-size: 0.8rem;
+.navbar-custom {
+    background-color: #BEC6A0;
+    padding: 1.50rem;
+}
+
+.navbar-custom .navbar-brand {
+    color: #708871 !important;
+    font-size: 1.50rem !important;
+}
+
+.custom-navbar {
+    background-color: #FFF2F2;
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link.custom-link {
+    color: #708871;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: 50px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: auto;
+    height: auto;
+}
+
+.custom-input-group {
+    margin: 0 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #BEC6A0;
+    border-radius: 30px;
+    border: 2px solid #503C3C;
+}
+
+.card-body {
+    color: #503C3C;
+}
+
+.card-title {
+    color: #503C3C;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #708871;
+    color: #FFF2F2;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sidebar-section img {
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.custom-text {
+    font-size: 20px;
+    color: #503C3C;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 40%;
+}
+
+.carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.m-5 {
+    margin: 0 !important;
+    padding: 10px !important;
+}
+
+.content-section,
+.sidebar-section {
+    padding: 20px;
+    max-width: 100%; 
+}
+
+.row {
+    margin: 0; 
+}
+
+.section-title {
+    color: #708871;
 }
